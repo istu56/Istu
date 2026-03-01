@@ -11,7 +11,7 @@ psutil
 apscheduler
 motor 
 pillow==9.5.0
-py-tgcalls
+py-tgcalls==2.2.8
 ntgcalls
 pykeyboard
 pyrofork
