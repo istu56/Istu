@@ -11,9 +11,9 @@ from pytgcalls import PyTgCalls, exceptions, types
 from pytgcalls.pytgcalls_session import PyTgCallsSession
 
 import config
-from AviaxMusic import LOGGER, YouTube, app
-from AviaxMusic.misc import db
-from AviaxMusic.utils.database import (
+from ISTKHAR_MUSIC import LOGGER, YouTube, app
+from ISTKHAR_MUSIC.misc import db
+from ISTKHAR_MUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -25,11 +25,11 @@ from AviaxMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from AviaxMusic.utils.exceptions import AssistantErr
-from AviaxMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from AviaxMusic.utils.inline.play import stream_markup
-from AviaxMusic.utils.stream.autoclear import auto_clean
-from AviaxMusic.utils.thumbnails import gen_thumb
+from ISTKHAR_MUSIC.utils.exceptions import AssistantErr
+from ISTKHAR_MUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
+from ISTKHAR_MUSIC.utils.inline.play import stream_markup
+from ISTKHAR_MUSIC.utils.stream.autoclear import auto_clean
+from ISTKHAR_MUSIC.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
@@ -521,4 +521,4 @@ class Call(PyTgCalls):
                     ]:
                         await self.stop_stream(update.chat_id)
 
-Aviax = Call()
+noor = Call()
