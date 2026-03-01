@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from ISTKHAR_MUSIC import YouTube, app
-from ISTKHAR_MUSIC.core.call import noor
+ISTKHAR_MUSIC/plugins/admins/callback.py
 from ISTKHAR_MUSIC.misc import SUDOERS, db
 from ISTKHAR_MUSIC.utils.database import (
     get_active_chats,
